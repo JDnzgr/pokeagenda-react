@@ -1,0 +1,42 @@
+.pokedex-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+  color: #f1f5f9;
+  background-color: #1e293b;
+}
+
+.pokedex-footer p {
+  margin: 0;
+}
+
+.pokedex-footer nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.pokedex-footer a {
+  color: #93c5fd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pokedex-footer a:hover {
+  text-decoration: underline;
+}
+
+.pokedex-footer a:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .pokedex-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

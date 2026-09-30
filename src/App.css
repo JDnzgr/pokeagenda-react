@@ -1,0 +1,23 @@
+.pokedex-app {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main > h1,
+main > p {
+  text-align: center;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
